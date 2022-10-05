@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>New Lasema Spa</title>
+        <link rel="icon" href="assets/img/logo.jpg" type="image/icon type">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@800&display=swap" rel="stylesheet">
+
+        <style>
+            *{
+                margin: 0;
+                padding:0;
+                box-sizing: border-box;
+            }
+            .body {
+                font-family: 'Open Sans', sans-serif;
+                color: #712e1e;
+            }
+            .navbar-brand img{
+                width: 100px;
+            }
+            .navbar-brand{
+                margin-right: 0;
+            }
+            .navbar-nav{
+                font-family: 'Poppins', sans-serif;
+            }
+            .nav-link.active{ 
+                background-color: #e59a59; 
+            }
+            .h4{
+                font-family: 'Poppins', sans-serif;
+                color:#712e1e;
+            }
+            .h3{
+                font-family: 'Poppins', sans-serif;
+                font-size: 40px;
+                color:#712e1e;
+            }
+            .card-img-overlay{
+                display:none;
+            }
+            .card-img:hover + .card-img-overlay{
+                display: block;
+                background-color:#ffd5af;
+            }
+        </style>
+      </head>
+
+<body >
+    <!--Navigation Bar-->
+    
+<nav class="navbar navbar-expand-md" style="background:#ffd5af;">
+    <div class="container-fluid">
+        <a class="navbar-brand d-lg-none" href="index.html">
+            <img src="assets/img/logo.jpg" class="border border-2" style="width:75px;">
+        </a>
+        <button class="navbar-toggler"
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarMark" 
+                    aria-controls="navbarMark" 
+                    aria-expanded="false" 
+                    aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMark">
+            <ul class="navbar-nav text-lowercase mx-auto">
+                <li class="nav-item d-flex align-self-center">
+                    <a class="nav-link" href="index.html" >About</a>
+                </li>
+                <li class="nav-item dropdown d-flex align-self-center">
+                    <a class="nav-link active dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Experiences</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="Sauna.html">Sauna</a></li>
+                    <li><a class="dropdown-item" href="Jacuzzi.html">Jacuzzi</a></li>
+                    <li><a class="dropdown-item" href="Common.html">Other Amenities</a></li>
+                </ul>
+                </li>
+                <li class="nav-item d-flex align-self-center">
+                    <a class="nav-link" href="Contact.html"  >Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand d-none d-lg-block" href="index.html">
+                        <img src="assets/img/logo.jpg" class="border border-2" style="width:75px;">
+                    </a>
+                </li>
+                <li class="nav-item d-flex align-self-center">
+                    <a class="nav-link" href="Book Now.html">Book Now</a>
+                </li>
+                <li class="nav-item d-flex align-self-center">
+                    <a class="nav-link" href="Shop.html">Shop</a>
+                </li>
+                <li class="nav-item d-flex align-self-center">
+                    <a class="nav-link" href="My Account.html">My Account</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav text-lowercase ml-auto">
+                <li class="nav-item">
+                     <a class="nav-link  d-flex align-self-center" href="MyCart.html"><i class="bi bi-bag-fill fw-bold" style="font-size: 25px; color:#712e1e;"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--End of Navbar-->
+    <br>
+    <br>
+<!--Sauna Content-->
+<div class="container-fluid">
+        <p class="h3 text-uppercase text-center">Enjoy. Relax. Be refreshed. </p>
+        <p class="fst-italic text-center">Be refreshed with our Korean-concept interiors, equipped with our under-heated floors for lounging and sleeping, a luxurious snack bar with wide-screen TVs, relaxing entertainment like exercise rooms, ice rooms and karaoke.</p>
+        <br>
+        <br>
+    <div class="container">
+        <div class="row g-1">
+            <div class="col-12 col-md-6 col-lg-3 card text-white p-0" style="height:200px;">
+                <img src="assets/img/lockers.png" class="card-img w-100 h-100" alt="lockers">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Lockers</h5>
+                  <p class="card-text">This is where you'll leave your personal belongings and change into their provided shirts and shorts during your stay.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card text-white p-0" style="height:200px;">
+                <img src="assets/img/snack.png" class="card-img w-100 h-100" alt="lockers">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Snackbar</h5>
+                  <p class="card-text">This is mostly filled with Korean foods and snacks.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card text-white p-0" style="height:200px;">
+                <img src="assets/img/karaoke room.png" class="card-img w-100 h-100" alt="lockers">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Karaoke Room</h5>
+                  <p class="card-text">This is where you, your friends or family can spend a fun-filled entertainment.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card text-white p-0" style="height:200px;">
+                <img src="assets/img/gym room.png" class="card-img w-100 h-100" alt="lockers">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Exercise Room</h5>
+                  <p class="card-text">This is where you can spend your time working out.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2 g-1">
+            <div class="col-12 col-md-6 col-lg-3 card text-white p-0" style="height:200px;">
+                <img src="assets/img/massageroom.png" class="card-img w-100 h-100" alt="lockers">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Massage rooms</h5>
+                  <p class="card-text">There are various massage rooms in the area where you can be pampered and relaxed.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3  card text-white p-0" style="height:200px;">
+                <img src="assets/img/jimjilbang.png" class="card-img w-100 h-100" alt="lockers">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Jjimjilbang</h5>
+                  <p class="card-text">This is a common area where you can sleep, watch, eat or mingle with anyone.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card text-white p-0" style="height:200px;">
+                <img src="assets/img/oxygen room.png" class="card-img w-100 h-100" alt="lockers">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Oxygen Room</h5>
+                  <p class="card-text">Continuous use of this room normalizes blood circulation..</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card text-white p-0" style="height:200px;">
+                <img src="assets/img/steam seat.png" class="card-img w-100 h-100" alt="lockers">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Steam Seats</h5>
+                  <p class="card-text">This helps in the sterilization of the uterus, genitalia and anal areas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+        
+</div>
+<!--End of Jacuzzi Content-->
+    <br><br>
+
+<!--Pricelist-->
+<div class="container-fluid mt-3">
+    <p class="h4 text-center">Updated Pricelist</p>
+    <div class="row g-1">
+        <div class="col-sm-12 col-lg-6 col-md-6">
+            <img src="assets/img/New-Lasema-Spa.png" class="img-fluid">
+        </div>
+        <div class="col-sm-12 col-lg-6 col-md-6">
+            <img src="assets/img/New-Lasema-Spa-1.png" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+    <br><br>   
+    <!--Start of footer-->
+
+    <footer class="container-fluid text-center bottom" style="background-color:#ffd5af;">
+        <i class="bi bi-facebook" type="button" style="color:#712e1e;"><a href="www.facebook.com"></a></i>
+        <i class="bi bi-instagram" type="button" style="color:#712e1e;"></i>
+        <i class="bi bi-youtube" type="button" style="color:#712e1e;"></i>
+        <br>
+        <p style="color:#712e1e;">Kodego 2022 Bootcamp. WD20P Software Chasers - Vernadette Loquinario</p>
+    </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+
+</html>

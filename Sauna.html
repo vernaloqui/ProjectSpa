@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>New Lasema Spa</title>
+        <link rel="icon" href="assets/img/logo.jpg" type="image/icon type">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@800&display=swap" rel="stylesheet">
+
+        <style>
+            *{
+                margin: 0;
+                padding:0;
+                box-sizing: border-box;
+            }
+            .body {
+                font-family: 'Open Sans', sans-serif;
+                color: #712e1e;
+            }
+            .navbar-brand img{
+                width: 100px;
+            }
+            .navbar-brand{
+                margin-right: 0;
+            }
+            .navbar-nav{
+                font-family: 'Poppins', sans-serif;
+            }
+            .nav-link.active{ 
+                background-color: #e59a59; 
+            }
+            .h4{
+                font-family: 'Poppins', sans-serif;
+                color:#712e1e;
+            }
+            .h3{
+                font-family: 'Poppins', sans-serif;
+                font-size: 40px;
+                color:#712e1e;
+            }
+            .inner{
+            overflow: hidden;
+            }
+            .inner img{
+                transition: all 1.5s ease;
+                width: 100%;
+                height:200px; 
+                object-fit: cover;
+            }
+            .inner:hover img{
+                transform: scale(1.5);
+            }
+        </style>
+      </head>
+
+<body >
+    <!--Navigation Bar-->
+    
+<nav class="navbar navbar-expand-md" style="background:#ffd5af;">
+    <div class="container-fluid">
+        <a class="navbar-brand d-lg-none" href="index.html">
+            <img src="assets/img/logo.jpg" class="border border-2" style="width:75px;">
+        </a>
+        <button class="navbar-toggler"
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarMark" 
+                    aria-controls="navbarMark" 
+                    aria-expanded="false" 
+                    aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMark">
+            <ul class="navbar-nav text-lowercase mx-auto">
+                <li class="nav-item d-flex align-self-center">
+                    <a class="nav-link" href="index.html" >About</a>
+                </li>
+                <li class="nav-item dropdown d-flex align-self-center">
+                    <a class="nav-link active dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Experiences</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="Sauna.html">Sauna</a></li>
+                    <li><a class="dropdown-item" href="Jacuzzi.html">Jacuzzi</a></li>
+                    <li><a class="dropdown-item" href="Common.html">Other Amenities</a></li>
+                </ul>
+                </li>
+                <li class="nav-item d-flex align-self-center">
+                    <a class="nav-link" href="Contact.html"  >Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand d-none d-lg-block" href="index.html">
+                        <img src="assets/img/logo.jpg" class="border border-2" style="width:75px;">
+                    </a>
+                </li>
+                <li class="nav-item d-flex align-self-center">
+                    <a class="nav-link" href="Book Now.html">Book Now</a>
+                </li>
+                <li class="nav-item d-flex align-self-center">
+                    <a class="nav-link" href="Shop.html">Shop</a>
+                </li>
+                <li class="nav-item d-flex align-self-center">
+                    <a class="nav-link" href="My Account.html">My Account</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav text-lowercase ml-auto">
+                <li class="nav-item">
+                     <a class="nav-link  d-flex align-self-center" href="MyCart.html"><i class="bi bi-bag-fill fw-bold" style="font-size: 25px; color:#712e1e;"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--End of Navbar-->
+    <br>
+    <br>
+<!--Sauna Content-->
+<div class="container-fluid">
+        <p class="h3 text-uppercase text-center">Relax. Renew. Revitalize.</p>
+        <p class="fst-italic text-center">Amaze yourself with our various kinds of kiln & facilities.</p>
+    <div class="row mt-3">
+        <div class="col-sm-12 col-lg-6 col-md-6 align-self-center">
+            <p class="h4 text-end">Ochre Hot Kiln</p>
+            <p class="fw-bold text-end">This serves as an anti-stress kiln by stimulating body metabolism through far-infrared ray radiation, leading to natural body detoxification, better absorption and self-purification.</p>
+        </div>
+        <div class="col">
+            <img src="assets/img/ochre Hot kiln.png" alt="Ochre Hot Kiln" class="w-100 shadow">
+        </div>
+    </div>
+    <div class="row mt-3 flex-row-reverse">
+        <div class="col-sm-12 col-lg-6 col-md-6 align-self-center">
+            <p class="h4 text-start">Yellow Soil & Amethyst Kiln</p>
+            <p class="fw-bold text-start">Natural stones inside this kiln are also known as miracle gem with their therapeutic effect to the skin to control blood pressure and sugar levels. It also relieves stress, corrects body rythms and hastens recovery.</p>
+        </div>
+        <div class="col">
+            <img src="assets/img/amethyst kiln.png" alt="Amethyst Kiln" class="w-100 shadow">
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-sm-12 col-lg-6 col-md-6 align-self-center">
+            <p class="h4 text-end">Himalayan Salt and Oak Charcoal Kiln</p>
+            <p class="fw-bold text-end">This kiln helps tremendously in blood cleansing and promotes proper digestion and healthier skin. It improves dull and rough skin. It aids excretion of body hormones resulting to anti-cancer benefits.</p>
+        </div>
+        <div class="col">
+            <img src="assets/img/himalayan kiln.png" alt="Himalayan Salt Kiln" class="w-100 shadow">
+        </div>
+    </div>
+    <div class="row mt-3 flex-row-reverse">
+        <div class="col-sm-12 col-lg-6 col-md-6 align-self-center">
+            <p class="h4 text-start">Pine Tree Kiln</p>
+            <p class="fw-bold text-start">This kiln has anti-aging, anti-bacterial and detoxification effects. It also helps in releasing fatigue.</p>
+        </div>
+        <div class="col">
+            <img src="assets/img/pine tree kiln.png" alt="Pine TRee Kiln" class="w-100 shadow">
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-sm-12 col-lg-6 col-md-6 align-self-center">
+            <p class="h4 text-end">Ice Room</p>
+            <p class="fw-bold text-end">This helps in shrinking skin pores which were opened in the hot kilns resulting in various skin-care benefits.</p>
+        </div>
+        <div class="col">
+            <img src="assets/img/ice room.png" alt="Ice Room" class="w-100 shadow">
+        </div>
+    </div>
+    <br><br><br>
+        
+</div>
+<!--End of Sauna Content-->
+    <br><br>
+
+<!--Pricelist-->
+<div class="container-fluid mt-3">
+    <p class="h4 text-center">Updated Pricelist</p>
+    <div class="row g-1">
+        <div class="col-sm-12 col-lg-6 col-md-6">
+            <img src="assets/img/New-Lasema-Spa.png" class="img-fluid">
+        </div>
+        <div class="col-sm-12 col-lg-6 col-md-6">
+            <img src="assets/img/New-Lasema-Spa-1.png" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+    <br><br>   
+    <!--Start of footer-->
+
+    <footer class="container-fluid text-center bottom" style="background-color:#ffd5af;">
+        <i class="bi bi-facebook" type="button" style="color:#712e1e;"><a href="www.facebook.com"></a></i>
+        <i class="bi bi-instagram" type="button" style="color:#712e1e;"></i>
+        <i class="bi bi-youtube" type="button" style="color:#712e1e;"></i>
+        <br>
+        <p style="color:#712e1e;">Kodego 2022 Bootcamp. WD20P Software Chasers - Vernadette Loquinario</p>
+    </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+
+</html>
